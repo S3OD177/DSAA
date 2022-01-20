@@ -3,19 +3,18 @@
 using namespace std;
 int main()
 {
-   int arr[10], even=0, odd=0, i;
+   int arr[5], min;
    cout<<"Enter 10 Array Elements: ";
-   for(i=0; i<10; i++)
+   for(int i=1; i<5; i++)
       cin>>arr[i];
-   for(i=0; i<10; i++)
-   {
-      if(arr[i]%2==0)
-         even++;
-      else
-         odd++;
-   }
-   cout<<"\nTotal Number of Even Numbers = "<<eve;
-   cout<<"\nTotal Number of Odd Numbers = "<<odd;
+	min=arr[0];
+   for(int i=0; i<min; i++)
+   
+      if(arr[i]< min)
+      	min=arr[i];
+   min++;
+   cout<<"\nminimum number is  = "<<min;
    cout<<endl;
    return 0;
 }
+

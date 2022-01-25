@@ -21,7 +21,7 @@ int main()
             b[c][r] = a[r][c];	
         }
     }
-cout << "Transpose Matrix : " << endl;
+	cout << "Transpose Matrix : " << endl;
     for (int r = 0; r < 2; r++)
     {
         for (int c = 0; c < 2; c++)
@@ -34,3 +34,4 @@ cout << "Transpose Matrix : " << endl;
 
    return 0;
 }
+
